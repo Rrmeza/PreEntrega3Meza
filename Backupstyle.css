@@ -1,0 +1,141 @@
+/* Reseteo el selectro universal*/
+*{margin: 0; padding: 0;}
+
+/* Header*/
+.logo {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 15%;
+flex-wrap: wrap;
+}
+
+header {
+display: flex;
+
+background-color: white;
+}
+
+.menuNavegable {
+
+display: flex;
+justify-content: flex-end;
+align-items: center;
+width: 100%;
+background-color: white;
+}
+
+
+
+
+
+.navbar-nav {
+
+font-size: medium;
+
+
+}
+
+/* Fin Header*/
+
+
+
+
+
+/* Carrousel*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.carousel-item {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card text-bg-dark p-3 {
+
+  
+  
+ display: flex;
+ align-content: flex-end;
+ flex-wrap: wrap;
+
+
+    
+}
+/* Fin Carrousel*/
+
+
+
+
+/* Grilla productos*/
+
+
+
+.gridProductos {
+
+    display: grid;
+
+    grid-template-areas: 
+    
+    "img1 img2 img3" ;
+
+}
+
+.ebikeProducto {
+
+    grid-area: img1;
+    width: 100%;
+    border: 1px solid rgb(195, 192, 209);
+    border-radius: 15px;
+}
+
+
+.monoProducto {
+    grid-area: img2;
+    width: 100%;
+    border: 1px solid rgb(195, 192, 209);
+    border-radius: 15px;
+}
+
+.monopatinProducto {
+
+    grid-area: img3;
+    width: 100%;
+    border: 1px solid rgb(195, 192, 209);
+    border-radius: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fin grilla productos*/
+
+
+
+
+
+
+/* Footer*/
+footer {
+    display: flex;
+    text-align: end;
+    justify-content: center;
+    text-decoration: underline;
+
+}
+
+/* Fin footer*/
