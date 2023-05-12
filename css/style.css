@@ -51,6 +51,12 @@ h1 {
 
 /* Fin Carrousel*/
 /* Grilla productos*/
+.textoProductos {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
 .gridProductos {
   display: grid;
   grid-template-areas: "img1 img2 img3";
@@ -75,6 +81,29 @@ h1 {
   width: 100%;
   border: 1px solid rgb(195, 192, 209);
   border-radius: 15px;
+}
+
+.gridtexProductos {
+  display: grid;
+  grid-template-areas: "txp1 txp2 txp3";
+}
+
+.gridtexProductos h4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.textProductos1 {
+  grid-area: txp1;
+}
+
+.textProductos2 {
+  grid-area: txp2;
+}
+
+.textProductos3 {
+  grid-area: txp3;
 }
 
 /* Fin grilla productos*/
