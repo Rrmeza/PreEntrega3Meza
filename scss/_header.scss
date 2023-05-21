@@ -1,0 +1,31 @@
+@import "variables";
+
+/* Header*/
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 13%;
+    height: 13%;
+    flex-wrap: wrap;
+    }
+    
+        header {
+        display: flex;
+        background-color: $bg_general;
+        }
+        
+        .menuNavegable {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        background-color: $bg_general;
+        font-family: $font_family;
+        }
+        
+        .navbar-nav {
+        font-size: medium;
+        }
+        
+        /* Fin Header*/
