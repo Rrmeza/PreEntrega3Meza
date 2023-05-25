@@ -1,0 +1,28 @@
+@import "variables";
+
+.contacto {
+
+    display: flex;
+}
+
+.datos-contacto li {
+
+    list-style: none;
+    
+}
+
+.datos-contacto li img {
+
+width: 3%;
+height: 3%;
+
+}
+
+
+.mapa-contacto {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+height: 100%;
+
+}
