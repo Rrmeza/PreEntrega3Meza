@@ -1,19 +1,51 @@
 @import "mixins";
 
+.lista-productos {
+   
+   width: 100%;
+  
+}
+
+.producto {
+
+margin: 5%;
+    
+}
+
+.img-producto {
+    width: 100%;
+    max-width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 
 .productos {
 
     display: flex;
-    width: 100%;
+   
    justify-content: center;
-
+@include bordes-img;
 }
 
 
-.card-img-overlay {
 
-    flex-wrap: wrap;
-height: 10%;
 
-}
+*/
+

@@ -109,17 +109,34 @@ h1 {
 }
 
 /* Fin grilla productos*/
-.productos {
-  display: flex;
+.lista-productos {
   width: 100%;
-  justify-content: center;
 }
 
-.card-img-overlay {
-  flex-wrap: wrap;
-  height: 10%;
+.producto {
+  margin: 5%;
 }
 
+.img-producto {
+  width: 100%;
+  max-width: 900px;
+}
+
+/*
+
+
+.productos {
+
+    display: flex;
+
+   justify-content: center;
+@include bordes-img;
+}
+
+
+
+
+*/
 /* Backgroung general*/
 /* Borde Producto inicial*/
 /* Font family*/
