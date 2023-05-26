@@ -1,14 +1,28 @@
 @import "variables";
 
+@import "mixins";
+
 .contacto {
 
     display: flex;
+    width: 100%;
+   
+    
+}
+
+.datos-contacto {
+
+    @include bordes-img;
+    background-color: rgb(202, 233, 201);
+    padding: 25px;
+
 }
 
 .datos-contacto li {
 
     list-style: none;
-    
+    padding: 5px;
+    font-family: $font_family;
 }
 
 .datos-contacto li img {
