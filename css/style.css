@@ -63,6 +63,10 @@ h1 {
   width: 100%;
 }
 
+.imagenesdeproductos a {
+  padding: 10px;
+}
+
 .gridProductos {
   margin: 10px;
   padding: 10px;
@@ -105,6 +109,23 @@ h1 {
 }
 
 /* Fin grilla productos*/
+.productos {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.row align-items-center {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  border: solid 2px;
+  border-color: rgb(121, 120, 124);
+  border-radius: 15px;
+}
+
 /* Backgroung general*/
 /* Borde Producto inicial*/
 /* Font family*/
