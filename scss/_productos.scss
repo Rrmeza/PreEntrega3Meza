@@ -6,20 +6,14 @@
 
     display: flex;
     width: 100%;
+   justify-content: center;
+
+}
+
+
+.card-img-overlay {
+
     flex-wrap: wrap;
-
-}
-
-
-.row align-items-center {
-
-    display: flex;
-    width: 100%;
-
-}
-.col {
-
-    @include bordes-img;
-
+height: 10%;
 
 }

@@ -112,18 +112,12 @@ h1 {
 .productos {
   display: flex;
   width: 100%;
+  justify-content: center;
+}
+
+.card-img-overlay {
   flex-wrap: wrap;
-}
-
-.row align-items-center {
-  display: flex;
-  width: 100%;
-}
-
-.col {
-  border: solid 2px;
-  border-color: rgb(121, 120, 124);
-  border-radius: 15px;
+  height: 10%;
 }
 
 /* Backgroung general*/
