@@ -78,21 +78,24 @@ h1 {
 .ebikeProducto {
   grid-area: img1;
   width: 100%;
-  border: 1px solid rgb(195, 192, 209);
+  border: solid 2px;
+  border-color: rgb(121, 120, 124);
   border-radius: 15px;
 }
 
 .monoProducto {
   grid-area: img2;
   width: 100%;
-  border: 1px solid rgb(195, 192, 209);
+  border: solid 2px;
+  border-color: rgb(121, 120, 124);
   border-radius: 15px;
 }
 
 .monopatinProducto {
   grid-area: img3;
   width: 100%;
-  border: 1px solid rgb(195, 192, 209);
+  border: solid 2px;
+  border-color: rgb(121, 120, 124);
   border-radius: 15px;
 }
 

@@ -1,5 +1,7 @@
 @import "variables";
 
+@import "mixins";
+
 
 
  /* Carrousel*/
@@ -52,25 +54,22 @@
 .ebikeProducto {
 
     grid-area: img1;
-    width: 100%;
-    border: $borderproduinicial;
-    border-radius: 15px;    
+    width: 100%; 
+    @include bordes-img;
 }
 
 
 .monoProducto {
     grid-area: img2;
     width: 100%;
-    border: $borderproduinicial;
-    border-radius: 15px;
+    @include bordes-img;
 }
 
 .monopatinProducto {
 
     grid-area: img3;
     width: 100%;
-    border: $borderproduinicial;
-    border-radius: 15px; 
+    @include bordes-img;
 }
 
 
